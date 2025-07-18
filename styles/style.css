@@ -159,6 +159,60 @@ header {
 }
 
 
+/* Loved features section */
+
+.enjoyable-features {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    margin: 0 120px 120px 120px;
+}
+
+
+.loveable-features-info h3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 16px;
+    margin-bottom: 24px;
+}
+
+#feature-desc {
+    margin-bottom: 24px;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 8px 4px 16px 0 rgba(255, 255, 255, 1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-para {
+    line-height: 1.625;
+}
+
+#floating-btn {
+    position: relative;
+    left: -92px;
+    top: -92px;
+}
+
+.btn-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.btn-para {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+
 /* Responsive design */
 
 /* Device width less than 576px */
@@ -201,6 +255,29 @@ header {
         margin-bottom: 8px;
     }
 
+    .enjoyable-features {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 16px;
+        gap: 42px;
+    }
+
+    .section-title {
+        margin-bottom: 4px;
+    }
+
+    .card {
+        margin-bottom: 8px;
+    }
+
+    .women-architect img {
+        max-width: 100%;
+    }
+
+    #floating-btn {
+        display: none;
+    }
+
 }
 
 
@@ -236,6 +313,43 @@ header {
     .feature-list {
         text-align: center;
     }
+
+     .enjoyable-features {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 16px;
+        gap: 42px;
+    }
+
+    .section-title {
+        margin-bottom: 4px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        margin-bottom: 8px;
+    }
+
+    .women-architect img {
+        max-width: 100%;
+    }
+
+    #floating-btn {
+        padding: 16px 32px;
+        left: 8px;
+        top: -128px;
+    }
+
+    .btn-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-para {
+        font-size: 1rem;
+    }
 }
 
 
@@ -267,5 +381,42 @@ header {
 
     .feature-list {
         text-align: center;
+    }
+
+    .enjoyable-features {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 16px;
+        gap: 42px;
+    }
+
+    .section-title {
+        margin-bottom: 4px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        margin-bottom: 8px;
+    }
+
+    .women-architect img {
+        max-width: 100%;
+    }
+
+    #floating-btn {
+        position: relative;
+        left: -200px;
+        padding: 20px 32px;
+    }
+
+    .btn-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-para {
+        font-size: 1rem;
     }
 }
