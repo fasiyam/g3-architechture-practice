@@ -51,8 +51,23 @@ body {
     display: grid;
 }
 
+.btn-primary {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #FF900E;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
 
 /* Header style */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-bottom: 80px;
+}
 
 /* Navbar styles */
 
@@ -81,6 +96,36 @@ body {
 }
 
 
+/* Banner designs */
+
+.banner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 860px;
+    margin: 24px auto;
+}
+
+.section-para p {
+    margin-bottom: 32px;
+    max-width: 868px;
+}
+
+.banner button {
+    margin-bottom: 48px;
+}
+
+.banner img {
+    border-radius: 8px;
+    margin-bottom: 48px;
+    max-width: 90%;
+}
+
 
 /* Responsive design */
 
@@ -101,6 +146,7 @@ body {
         text-align: center;
         gap: 16px;
         padding: 16px;
+        margin-bottom: 8px;
     }
 
 }
@@ -135,13 +181,14 @@ body {
     }
 
     .nav-items {
-        /* flex-direction: column; */
+        flex-direction: row;
         gap: 12px;
     }
 
     .nav-bar {
         grid-template-columns: 1fr 1fr;
         gap: 32px;
+        margin-bottom: 24px;
     }
 
     .section-title {
